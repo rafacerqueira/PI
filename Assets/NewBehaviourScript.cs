@@ -12,6 +12,7 @@ public class NewBehaviourScript : MonoBehaviour {
         public Text mensagem;
 
         public void StoreName(){
+                
                 string x = moveFrom.text;
                 string y = moveTo.text;
 
@@ -24,6 +25,8 @@ public class NewBehaviourScript : MonoBehaviour {
                 if(int.TryParse(x,out movefrom) && int.TryParse(y,out moveto)){
                         if (validMove(movefrom, moveto)) {
                                 mensagem.text = "Sucesso!";
+                                mensagem.gameObject.SetActive(true);
+                                
                         }
                         
                 }

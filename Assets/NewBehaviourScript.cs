@@ -4,34 +4,45 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class NewBehaviourScript : MonoBehaviour
-{
-    public TMP_InputField posicaoX;
-    public TMP_InputField posicaoY;
+public class NewBehaviourScript : MonoBehaviour {
 
-    public void StoreName(){
-    string x = posicaoX.text;
-    string y = posicaoY.text;
+        public TMP_InputField moveFrom;
+        public TMP_InputField moveTo;
 
-    int pos_x;
-    int pos_y;
+        public Text mensagem;
 
-    x = x.Trim();
-    y = y.Trim();
+        public void StoreName(){
+                string x = moveFrom.text;
+                string y = moveTo.text;
 
-    pos_x = int.Parse(x);
-    pos_y = int.Parse(y);
-    
-    if(pos_x > 2){
-            Debug.Log("x > 2 => + 1 POINT :)");
-    }
-    if(pos_y == 0){
-            Debug.Log("y == 0 => - 1 POINT :(");
-    }
+                int movefrom;
+                int moveto;
 
-    Debug.Log("variavel x : " + x + ", variavel y : " + y);
-    
-}
+                x = x.Trim();
+                y = y.Trim();
+
+                if(int.TryParse(x,out movefrom) && int.TryParse(y,out moveto)){
+                        if (validMove(movefrom, moveto)) {
+                                mensagem.text = "Sucesso!";
+                        }
+                        
+                }
+                   
+        }
+
+        public bool validMove(int movefrom, int moveto){
+                int xfrom = movefrom/10 - 1 ;
+                int yfrom = movefrom%10 - 1 ;
+                int xto = moveto/10 - 1 ;
+                int yto = moveto%10 - 1 ;
+
+                if(xfrom < 0 || xfrom > 7 || yfrom < 0 || yfrom > 7 || xto < 0 || xto > 7 || yto < 0 || yto > 7){
+                        return false;
+                }
+
+                return true;
+
+        }
 
 }
 

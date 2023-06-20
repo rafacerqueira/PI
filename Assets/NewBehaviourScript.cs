@@ -10,11 +10,46 @@ public class NewBehaviourScript : MonoBehaviour
     public TMP_InputField moveTo;
 
     public TextMeshProUGUI mensagem;
+    public TextMeshProUGUI contadorText;
 
     private int contador = 0;
+    private float tempoInicial;
+    private bool contadorAtivo;
+
+    public float tempoTotal = 120f; // Tempo total em segundos (2 minutos)
+
+    private void Start()
+    {
+        tempoInicial = Time.time;
+        contadorAtivo = true;
+    }
+
+    private void Update()
+    {
+        if (contadorAtivo)
+        {
+            float tempoAtual = Time.time - tempoInicial;
+            float tempoRestante = tempoTotal - tempoAtual;
+
+            if (tempoRestante <= 0f)
+            {
+                tempoRestante = 0f;
+                contadorAtivo = false;
+                mensagem.text = "Tempo esgotado!";
+                mensagem.gameObject.SetActive(true);
+            }
+
+            contadorText.text ="Tempo Restante: " + FormatTime(tempoRestante);
+        }
+    }
 
     public void StoreName()
     {
+        if (!contadorAtivo)
+        {
+            return; // Ignorar se o contador estiver inativo
+        }
+
         string x = moveFrom.text;
         string y = moveTo.text;
 
@@ -48,5 +83,13 @@ public class NewBehaviourScript : MonoBehaviour
         }
 
         return true;
+    }
+
+    private string FormatTime(float time)
+    {
+        int minutes = Mathf.FloorToInt(time / 60f);
+        int seconds = Mathf.FloorToInt(time % 60f);
+
+        return string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 }

@@ -43,32 +43,51 @@ public class NewBehaviourScript : MonoBehaviour
         }
     }
 
-    public void StoreName()
+   public void StoreName()
+{
+    if (!contadorAtivo)
     {
-        if (!contadorAtivo)
+        return; // Ignore if the counter is inactive
+    }
+
+    string x = moveFrom.text;
+    string y = moveTo.text;
+
+    int movefrom;
+    int moveto;
+
+    x = x.Trim();
+    y = y.Trim();
+
+    if (int.TryParse(x, out movefrom) && int.TryParse(y, out moveto))
+    {
+        string inventorySlotFromName = "InventorySlot_" + movefrom;
+        string inventorySlotToName = "InventorySlot_" + moveto;
+
+        GameObject inventorySlotFromObject = GameObject.Find(inventorySlotFromName);
+        GameObject inventorySlotToObject = GameObject.Find(inventorySlotToName);
+
+        if (inventorySlotFromObject != null && inventorySlotToObject != null)
         {
-            return; // Ignorar se o contador estiver inativo
-        }
+            InventorySlot inventorySlotFrom = inventorySlotFromObject.GetComponent<InventorySlot>();
+            InventorySlot inventorySlotTo = inventorySlotToObject.GetComponent<InventorySlot>();
 
-        string x = moveFrom.text;
-        string y = moveTo.text;
-
-        int movefrom;
-        int moveto;
-
-        x = x.Trim();
-        y = y.Trim();
-
-        if (int.TryParse(x, out movefrom) && int.TryParse(y, out moveto))
-        {
-            if (validMove(movefrom, moveto))
+            if (inventorySlotFrom != null && inventorySlotFrom.HasChild() && inventorySlotTo != null && !inventorySlotTo.HasChild())
             {
                 contador++;
                 mensagem.text = "Player 1 = " + contador;
                 mensagem.gameObject.SetActive(true);
             }
+            else
+            {
+                mensagem.text = "Challenge failed";
+                mensagem.gameObject.SetActive(true);
+            }
         }
     }
+}
+
+
 
     public bool validMove(int movefrom, int moveto)
     {

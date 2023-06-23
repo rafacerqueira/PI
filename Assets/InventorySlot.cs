@@ -13,5 +13,10 @@ public class InventorySlot : MonoBehaviour, IDropHandler
         draggableItem.parentAfterDrag = transform;
     }
 
+    public bool HasChild()
+    {
+        return transform.childCount > 0;
+    }
+
     
 }

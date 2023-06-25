@@ -74,6 +74,11 @@ public class NewBehaviourScript : MonoBehaviour
 
             if (inventorySlotFrom != null && inventorySlotFrom.HasChild() && inventorySlotTo != null && !inventorySlotTo.HasChild())
             {
+                // Move the child object from moveFrom to moveTo
+                Transform childObject = inventorySlotFrom.transform.GetChild(0);
+                childObject.SetParent(inventorySlotTo.transform);
+                childObject.localPosition = Vector3.zero;
+
                 contador++;
                 mensagem.text = "Player 1 = " + contador;
                 mensagem.gameObject.SetActive(true);
@@ -86,6 +91,7 @@ public class NewBehaviourScript : MonoBehaviour
         }
     }
 }
+
 
 
 

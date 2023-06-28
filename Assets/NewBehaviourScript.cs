@@ -12,16 +12,19 @@ public class NewBehaviourScript : MonoBehaviour
     public TextMeshProUGUI mensagem;
     public TextMeshProUGUI contadorText;
 
-    private int contador = 0;
+    private int currentPlayer = 1;
+    private int[] scores = new int[3];
+    private int currentChallengePlayer = 1;
+    private int currentChallengeCount = 0;
+
     private float tempoInicial;
     private bool contadorAtivo;
 
-    public float tempoTotal = 120f; // Tempo total em segundos (2 minutos)
+    public float tempoTotal = 60f; // Tempo total em segundos (1 minuto)
 
     private void Start()
     {
-        tempoInicial = Time.time;
-        contadorAtivo = true;
+        StartChallenge();
     }
 
     private void Update()
@@ -35,63 +38,90 @@ public class NewBehaviourScript : MonoBehaviour
             {
                 tempoRestante = 0f;
                 contadorAtivo = false;
-                mensagem.text = "Tempo esgotado!";
+                mensagem.text = "Tempo esgotado! Challenge failed";
                 mensagem.gameObject.SetActive(true);
+
+                PassChallenge();
             }
 
-            contadorText.text ="Tempo Restante: " + FormatTime(tempoRestante);
+            contadorText.text = "Tempo Restante: " + FormatTime(tempoRestante);
         }
     }
 
-   public void StoreName()
-{
-    if (!contadorAtivo)
+    public void StartChallenge()
     {
-        return; // Ignore if the counter is inactive
+        tempoInicial = Time.time;
+        contadorAtivo = true;
     }
 
-    string x = moveFrom.text;
-    string y = moveTo.text;
-
-    int movefrom;
-    int moveto;
-
-    x = x.Trim();
-    y = y.Trim();
-
-    if (int.TryParse(x, out movefrom) && int.TryParse(y, out moveto))
+    public void StoreName()
     {
-        string inventorySlotFromName = "InventorySlot_" + movefrom;
-        string inventorySlotToName = "InventorySlot_" + moveto;
-
-        GameObject inventorySlotFromObject = GameObject.Find(inventorySlotFromName);
-        GameObject inventorySlotToObject = GameObject.Find(inventorySlotToName);
-
-        if (inventorySlotFromObject != null && inventorySlotToObject != null)
+        if (!contadorAtivo)
         {
-            InventorySlot inventorySlotFrom = inventorySlotFromObject.GetComponent<InventorySlot>();
-            InventorySlot inventorySlotTo = inventorySlotToObject.GetComponent<InventorySlot>();
+            return; // Ignore if the counter is inactive
+        }
 
-            if (inventorySlotFrom != null && inventorySlotFrom.HasChild() && inventorySlotTo != null && !inventorySlotTo.HasChild())
-            {
-                // Move the child object from moveFrom to moveTo
-                Transform childObject = inventorySlotFrom.transform.GetChild(0);
-                childObject.SetParent(inventorySlotTo.transform);
-                childObject.localPosition = Vector3.zero;
+        string x = moveFrom.text;
+        string y = moveTo.text;
 
-                contador++;
-                mensagem.text = "Player 1 = " + contador;
-                mensagem.gameObject.SetActive(true);
-            }
-            else
+        int movefrom;
+        int moveto;
+
+        x = x.Trim();
+        y = y.Trim();
+
+        if (int.TryParse(x, out movefrom) && int.TryParse(y, out moveto))
+        {
+            string inventorySlotFromName = "InventorySlot_" + movefrom;
+            string inventorySlotToName = "InventorySlot_" + moveto;
+
+            GameObject inventorySlotFromObject = GameObject.Find(inventorySlotFromName);
+            GameObject inventorySlotToObject = GameObject.Find(inventorySlotToName);
+
+            if (inventorySlotFromObject != null && inventorySlotToObject != null)
             {
-                mensagem.text = "Challenge failed";
-                mensagem.gameObject.SetActive(true);
+                InventorySlot inventorySlotFrom = inventorySlotFromObject.GetComponent<InventorySlot>();
+                InventorySlot inventorySlotTo = inventorySlotToObject.GetComponent<InventorySlot>();
+
+                if (inventorySlotFrom != null && inventorySlotFrom.HasChild() && inventorySlotTo != null && !inventorySlotTo.HasChild())
+                {
+                    // Move the child object from moveFrom to moveTo
+                    Transform childObject = inventorySlotFrom.transform.GetChild(0);
+                    childObject.SetParent(inventorySlotTo.transform);
+                    childObject.localPosition = Vector3.zero;
+
+                    scores[currentPlayer - 1] += 2;
+                    mensagem.text = "Player " + currentPlayer + " = " + scores[currentPlayer - 1];
+                    mensagem.gameObject.SetActive(true);
+
+                    PassChallenge();
+                }
+                else
+                {
+                    mensagem.text = "Challenge failed";
+                    mensagem.gameObject.SetActive(true);
+
+                    PassChallenge();
+                }
             }
         }
     }
-}
 
+ public void PassChallenge()
+{
+    // Pass the challenge to the next player
+    currentChallengePlayer = (currentChallengePlayer % 3) + 1;
+    currentChallengeCount = 0;
+
+    // Switch to the next player
+    currentPlayer = currentChallengePlayer;
+
+    // Reset the clock
+    tempoInicial = Time.time;
+
+    // Restart the countdown
+    contadorAtivo = true;
+}
 
 
 

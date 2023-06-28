@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_54
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -247,6 +251,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_85
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -728,6 +736,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_73
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 7844515680773847061, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: isOccupied
       value: 1
@@ -828,6 +840,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_32
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -1178,6 +1194,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_71
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 7844515680773847061, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: isOccupied
       value: 1
@@ -1278,6 +1298,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_78
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -1388,6 +1412,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_22
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 7844515680773847061, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: isOccupied
       value: 1
@@ -1493,6 +1521,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_27
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -1952,6 +1984,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_34
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -2060,6 +2096,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_87
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -2208,6 +2248,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_68
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 7844515680773847061, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: isOccupied
@@ -2609,6 +2653,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_41
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -2718,6 +2766,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_65
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -2826,6 +2878,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_57
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 8840866590256405817, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Pivot.x
@@ -3100,6 +3156,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_61
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -3238,6 +3298,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_15
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 7844515680773847061, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: isOccupied
       value: 1
@@ -3338,6 +3402,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_33
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -3637,6 +3705,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_77
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 7844515680773847061, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: isOccupied
@@ -3940,6 +4012,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_86
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 7844515680773847061, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: isOccupied
@@ -4407,6 +4483,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -5185,6 +5265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_23
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -5429,6 +5513,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_47
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -5660,6 +5748,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_43
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -5939,6 +6031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_42
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 8840866590256405817, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -6035,6 +6131,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -6173,6 +6273,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_48
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 8840866590256405817, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Pivot.x
@@ -6861,6 +6965,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_24
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 8840866590256405817, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -7077,6 +7185,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_76
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -7823,6 +7935,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_26
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 7844515680773847061, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: isOccupied
       value: 1
@@ -7923,6 +8039,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_83
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -8076,6 +8196,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_72
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -8409,6 +8533,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_38
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -8517,6 +8645,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_88
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 7844515680773847061, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: isOccupied
@@ -8753,6 +8885,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_52
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -9672,6 +9808,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_67
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -9916,6 +10056,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_75
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 7844515680773847061, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: isOccupied
       value: 1
@@ -10017,6 +10161,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_53
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 8840866590256405817, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -10113,6 +10261,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_66
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 7844515680773847061, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: isOccupied
@@ -10349,6 +10501,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -10623,6 +10779,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_62
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 7844515680773847061, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: isOccupied
       value: 1
@@ -10786,6 +10946,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_82
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 7844515680773847061, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: isOccupied
@@ -11110,6 +11274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_46
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 8840866590256405817, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -11420,6 +11588,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_44
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 8840866590256405817, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -11550,6 +11722,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_64
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 7844515680773847061, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: isOccupied
@@ -11714,6 +11890,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_31
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -11953,6 +12133,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_25
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -12061,6 +12245,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_84
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 7844515680773847061, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: isOccupied
@@ -12311,6 +12499,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_37
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -12828,6 +13020,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_45
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -13467,6 +13663,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_18
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -13576,6 +13776,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_63
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -13684,6 +13888,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_55
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 8840866590256405817, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Pivot.x
@@ -14258,6 +14466,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_81
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -14395,6 +14607,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -14592,6 +14808,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_14
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -14700,6 +14920,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_74
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -15196,6 +15420,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_28
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 7844515680773847061, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: isOccupied
       value: 1
@@ -15349,6 +15577,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 7844515680773847061, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: isOccupied
@@ -15677,6 +15909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot_51
       objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
+      objectReference: {fileID: 0}
     - target: {fileID: 8840866590256405817, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -15773,6 +16009,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_21
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
@@ -16017,6 +16257,10 @@ PrefabInstance:
     - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Name
       value: InventorySlot_58
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308974825796486286, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
+      propertyPath: m_TagString
+      value: InventorySlot
       objectReference: {fileID: 0}
     - target: {fileID: 1448877208072521291, guid: 2e65edcc0981eb84e83e7a12597b54ab, type: 3}
       propertyPath: m_Color.b
